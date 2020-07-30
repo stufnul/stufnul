@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Arial MT';
+    src: local('Playfair Display'),
+    local('PlayfairDisplay'),
+    url('../fonts/Roboto-Thin.ttf') format('ttf'),;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto'),
+        url('../fonts/Roboto-Regular.ttf') format('ttf'),
+        url('../fonts/Roboto-Thin.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+  }
+body {
+   max-width: 1440px;
+   margin: 0 auto;
+   font-family: "Roboto", sans-serif;
+}
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.page-header {
+    background-color: #eeeeee;
+    max-width: 1440px;
+    height: 545px;
+    position: relative;
+}
+.main-header {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.nerds-logo {
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    width: 160px;
+    height: 65px;
+}
+.menu-item {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.nav-menu li {
+  list-style: none;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 438px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.cart {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -29px;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.cart-block {
+    position: relative;
+}
+
+.cart::before {
+    position: absolute;
+    left: 1040px;
+    top: 5px;
+    content: "";
+    background-image: url(../img/cart-icon.png);
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+}
+.head-title {
+    width: 376px;
+    margin-bottom: 25px;
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+}
+.slide-block {
+    display: flex;
+}
+.head-text {
+    width: 361px;
+    color: #283136;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 24px;    
+}
+.learn-more {
+    display: block;
+    width: 240px;
+    height: 50px;
+    background-color: #fb565a;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5%;
+}
+.head-slide {
+    background-image: url(../img/slide1.png);
+    width: 698px;
+    height: 413px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.main-choice {
+    margin: 0 auto;
+    left: 0;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.dis-img {
+    width: 300px;
+    height: 146px;
+}
+.choice-title {
+    font-family: Roboto;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.choice-text {
+    width: 245px;
+    margin-bottom: 30px;
+    color: #283136;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.choice-link {
+    display: block;
+    text-align: center;
+    border-radius: 5%;
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    font-family: Roboto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.first-link {
+    background-color: #fb565a;
+}
+.second-link {
+    background-color: #00ca74; 
+}
+.third-link {
+    background-color: #efc84a;
+}
+.line {
+    max-width: 1160px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: lightgray;
+    margin-bottom: 60px;
+}
+.ds-title {
+    width: 650px;
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.ds-text {
+    width: 616px;
+    color: #283136;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.ds-terms {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+}
+.ds-points {
+    color: #283136;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.ds-points::before {
+    content: "";
+
+}
+.design-studio {
+    margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.np-img {
+    background-image: url(../img/nerds-illustration.png);
+    width: 360px;
+    height: 208px;
+    margin-bottom: 30px;
+}
+.percent {
+    display: flex;
+    justify-content: space-between;
+}
+.strong-per {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 10.06px;
+}
+.per-text {
+    width: 105px;
+    color: #283136;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.logo-block {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+.link-logo1 {
+    width: 199px;
+    height: 68px;
+
+}
+.link-logo2 {
+    width: 209px;
+    height: 90px;
+    margin-top: -15px;
+}
+.link-logo3 {
+    width: 185px;
+    height: 52px;
+}
+.link-logo4 {
+    width: 173px;
+    height: 84px;
+    margin-top: -10px;
+}
