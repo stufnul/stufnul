@@ -272,3 +272,124 @@ body {
     height: 84px;
     margin-top: -10px;
 }
+.logo-line-l {
+	width: 2px;
+    height: 52px;
+	border-left: 2px solid lightgray;
+}
+.logo-line-r {
+	width: 2px;
+    height: 52px;
+	border-left: 2px solid lightgray;
+}
+.main-maps {
+	background-image: url(../img/maps.png);
+    width: 1440px;
+    height: 416px;
+    padding-top: 55px;
+    margin-bottom: 70px;
+}
+.nerds-card {
+	display: flex;
+	background-color: #fff;
+	width: 319px;
+    height: 308px;
+    margin-left: 140px;
+}
+.card-title {
+	color: #000000;
+   font-family: Roboto;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 30px;
+   padding-top: 40px;
+}
+.card-text {
+	width: 200px;
+    height: 40px;
+    color: #666666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.card-info {
+	margin-left: 45px;
+}
+.card-btn {
+	display: block;
+	width: 219px;
+    height: 50px;
+    background-color: #fb565a;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;  
+    border-radius: 5%;
+    text-align: center;
+    line-height: 50px;  
+}
+.map-marker {
+	width: 231px;
+    height: 190px;
+    margin-top: 35px;
+    margin-left: 420px;
+}
+.page-footer {
+	display: flex;
+}
+.footer-social {
+	display: flex;
+	margin-right: 130px;
+}
+.soc-block {
+	width: 79px;
+    height: 79px;
+    background-color: #e1e1e1;
+    border-radius: 100%;
+    margin-right: 15px;
+    position: relative;
+}
+.f-soc1 {
+	position: absolute;
+	width: 26px;
+    height: 15px;
+    left: 26px;
+    bottom: 35px;
+}
+.f-soc2 {
+	position: absolute;
+	width: 12px;
+    height: 22px;
+    left: 33px;
+    bottom: 35px;
+}
+.f-soc3 {
+	position: absolute;
+	width: 21px;
+    height: 21px;
+    left: 29px;
+    bottom: 35px;
+}
+.f-title {
+	color: #000000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.f-sale {
+	color: #444444;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
